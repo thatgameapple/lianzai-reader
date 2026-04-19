@@ -43,6 +43,7 @@ jobs:
 
       - name: Create DMG
         run: |
+          rm -rf "dist/轻想纪念版"
           create-dmg \
             --volname "轻想纪念版" \
             --window-size 540 360 \
